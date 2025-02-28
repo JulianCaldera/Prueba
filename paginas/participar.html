@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participar</title>
+    <link rel="stylesheet" href="participar.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/BioTech/Proyectos de interés/imagenes-pdi copy/Logo BioTech.PNG" alt="Logo de BioTech">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="/BioTech/Inicio/Inicio.html">Inicio</a></li>
+                <li><a href="/BioTech/Proyectos de interés/pdi.html">Proyectos de interés</a></li>
+                <li><a href="/BioTech/Participar/participar.html">Trabaja en un proyecto</a></li>
+                <li><a href="/BioTech/Financiar/financiar.html">Financiar</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+    <div class="container">
+        <h1>PARTICIPA EN NUESTROS PROYECTOS</h1>
+        <p>A continuación, ingresa la información solicitada y nos pondremos en contacto contigo para brindarte información acerca de las vacantes disponibles, o recomendarte otros proyectos según las características de tu perfil.</p>
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="documento">Documento de identidad (sin espacios ni puntos)</label>
+            <input type="text" id="documento" name="documento" required>
+
+            <label for="contacto">Número de contacto</label>
+            <input type="tel" id="contacto" name="contacto" required>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="proyectos">Proyectos de Interés</label>
+            <input type="text" name="proyectos" id="proyectos">
+
+            <label for="solicitud">¡Queremos conocerte! Cuéntanos un poco sobre tus motivaciones para participar en este proyecto. Después de llenar este campo, envíanos tu hoja de vida al siguiente correo: recursoshumanos@biotech.com.</label>
+            <input type="text" name="solicitud" id="solicitud">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <p>Dirección: Carrera 45 #75B Sur 120, Sabaneta, Antioquia.</p>
+                <p>Email: contacto@biotech.com</p>
+                <p>Teléfono: +57 305 297 9679</p>
+            </div>
+            <div class="redes-sociales">
+                <h2>Síguenos</h2>
+                <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+
+        <!-- Logo de BioTech en el footer -->
+        <div class="logo">
+            <img src="/BioTech/Proyectos de interés/imagenes-pdi copy/Logo BioTech.PNG" alt="Logo de BioTech">
+        </div>
+    </footer>
+
+    <!-- Aquí iría el JavaScript para el menú desplegable -->
+    <script src="participar.js"></script>
+
+</body>
+</html>
