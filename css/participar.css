@@ -1,0 +1,196 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #47555E;
+    color: #444;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 70px auto;
+    padding: 90px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #666;
+}
+
+h1 {
+    font-size: 24px;
+    color: #7AA5D2;
+    margin-bottom: 10px;
+}
+
+/* Párrafo descriptivo */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Estilos del formulario */
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #7AA5D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7AA5D2;
+}
+#solicitud {
+    height: 60px; /* Más altura */
+    font-size: 18px; /* Texto más grande */
+    padding: 20px; /* Más espacio interno */
+}
+
+/*Encabezado*/
+
+header {
+    display: flex;
+    justify-content: space-between;  /* Alinea el logo a la izquierda y el menú a la derecha */
+    align-items: center;            /* Centra verticalmente el contenido */
+    padding: 10px 20px;             /* Espaciado alrededor del header */
+    background-color: #333;         /* Color de fondo del header */
+    color: white;                   /* Color del texto */
+}
+
+/* Logo */
+.logo img {
+    width: 20%;  /* Ajusta el tamaño del logo */
+    height: auto;
+    padding: 1%;
+}
+
+.menu {
+    display: none;
+    background-color: #333;  /* Color de fondo del menú */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 220px;
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.menu-toggle {
+    font-size: 2em;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+
+.menu.active {
+    display: block;
+}
+
+/* Estilos para cada opción del menú */
+.menu a {
+    display: block;
+    padding: 12px;
+    font-family: 'Arial', sans;
+    color: #d5ddfc;
+}
+.menu a:hover {
+    background-color: #898989;}
+
+/* Pie de pagina */
+
+.footer {
+    display: flex;                    /* Usamos Flexbox para distribuir los elementos */
+    justify-content: space-between;    /* Distribuye los elementos con espacio entre ellos */
+    align-items: center;              /* Centra verticalmente los elementos */
+    background-color: #333;           /* Fondo del footer (puedes cambiar el color) */
+    color: white;                     /* Color del texto */
+    padding: 20px;                    /* Espaciado interno */
+}
+
+.footer-info {
+    display: flex;                    /* Usamos Flexbox para organizar el contenido dentro */
+    justify-content: space-between;    /* Distribuye las secciones (contacto y redes) */
+    width: 53%;                        /* Ancho de la sección de información */
+}
+
+.contacto, .redes-sociales {
+    display: flex;                    /* Usamos flexbox para los elementos dentro */
+    flex-direction: column;           /* Los elementos se organizan en columna */
+    gap: 10px;                       /* Espacio entre los elementos dentro */
+    margin-top: 5px;
+}
+
+.contacto h2, .redes-sociales h2 {
+    margin: 0;                        /* Elimina los márgenes predeterminados */
+}
+
+.social-icon {
+    color: white;                     /* Color de los enlaces de redes sociales */
+    text-decoration: none;            /* Elimina el subrayado */
+    font-size: 1.2em;                  /* Tamaño de los iconos de redes sociales */
+    margin-bottom: 10px;               /* Espacio entre los enlaces de redes */
+}
+
+.logo img {
+    width: 250px;                     /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 115px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;       /* En pantallas pequeñas, los elementos del footer se apilan verticalmente */
+        text-align: center;           /* Centra el contenido */
+    }
+
+    .footer-info {
+        width: 100%;                  /* El contenedor de la información ocupa todo el ancho */
+        flex-direction: column;       /* Los elementos se apilan verticalmente */
+        align-items: center;          /* Centra los elementos en el eje horizontal */
+    }
+
+    .logo {
+        margin-top: 20px;             /* Espacio entre la información y el logo */
+    }
+}
+.contacto p {
+    margin:0 ;  /* Reduce el espacio vertical entre los párrafos */
+}
