@@ -7,16 +7,21 @@ header {
     background-color: #333;         /* Color de fondo del header */
     color: white;                   /* Color del texto */
 }
-.banner img{
-    width: 50%;    /* Esto hace que la imagen ocupe el 100% del ancho del contenedor */
-    height: auto;   /* Esto mantiene la relación de aspecto */
-}
-.fondo {
-    background-image: url('/Prueba/imagen/MEDELLIN.jpg'); /* Reemplaza con la ruta correcta */
-    background-size: cover;  /* Ajusta la imagen para cubrir toda la sección */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    height: 100vh; /* Ajusta la altura según sea necesario */
+.banner {
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Capa negra con opacidad */
+        url(imagen/MEDELLIN.jpg); /* Imagen de fondo */
+    background-size: cover;           /* La imagen cubre todo el espacio disponible */
+    background-position: center;      /* Centra la imagen dentro del contenedor */
+    background-repeat: no-repeat;     /* Evita que la imagen se repita */
+    height: 500px;                    /* Asegura que el contenedor tenga el tamaño completo de la pantalla (puedes ajustarlo) */
+    width: 100%;                      /* Ocupa todo el ancho disponible */
+    margin-bottom: 80px;
 }
 .logo img {
     width: 20%;
