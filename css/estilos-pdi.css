@@ -138,7 +138,7 @@ h1 {
 }
 
 .back {
-    background-color: #333;
+    background-color: #949599;
     color: white;
     transform: rotateY(180deg); /* Girar la cara trasera por defecto */
     display: flex;
