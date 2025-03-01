@@ -7,35 +7,7 @@ header {
     color: white;
 }
 
-/* Sección del banner superior */
-.banner img{
-    width: 50%;    /* Esto hace que la imagen ocupe el 100% del ancho del contenedor */
-    height: auto;   /* Esto mantiene la relación de aspecto */
-}
-.banner {
-    color: #EEEEEE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Capa negra con opacidad */
-        url(/Prueba/imagen/cienciatech.jpg); /* Imagen de fondo */
-    background-size: cover;           /* La imagen cubre todo el espacio disponible */
-    background-position: center;      /* Centra la imagen dentro del contenedor */
-    background-repeat: no-repeat;     /* Evita que la imagen se repita */
-    height: 70px;                    /* Asegura que el contenedor tenga el tamaño completo de la pantalla (puedes ajustarlo) */
-    width: 100%;                      /* Ocupa todo el ancho disponible */
-    margin-bottom: 80px;
-}
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px auto;
-    width: 80%;
-}
 
 .image {
     width: 80%;
