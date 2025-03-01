@@ -1,12 +1,13 @@
 /* Estilos generales */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    justify-content: space-between;  /* Alinea el logo a la izquierda y el menú a la derecha */
+    align-items: center;            /* Centra verticalmente el contenido */
+    padding: 10px 20px;             /* Espaciado alrededor del header */
+    background-color: #333;         /* Color de fondo del header */
+    color: white;                   /* Color del texto */
 }
+
 
 .logo img {
     width: 20%;
