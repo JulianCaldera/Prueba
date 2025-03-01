@@ -78,7 +78,7 @@ h1 {
 
 /* Card flip effect */
 .contenedor {
-    background-color: #333;
+    background-color: #d5ddfc;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
