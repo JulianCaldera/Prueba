@@ -11,7 +11,13 @@ header {
     width: 50%;    /* Esto hace que la imagen ocupe el 100% del ancho del contenedor */
     height: auto;   /* Esto mantiene la relación de aspecto */
 }
-
+.fondo {
+    background-image: url('/Prueba/imagen/MEDELLIN.jpg'); /* Reemplaza con la ruta correcta */
+    background-size: cover;  /* Ajusta la imagen para cubrir toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ajusta la altura según sea necesario */
+}
 .logo img {
     width: 20%;
     height: auto;
