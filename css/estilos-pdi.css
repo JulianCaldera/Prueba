@@ -66,7 +66,7 @@ h1 {
     text-align: center;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url("imagenes-pdi\ copy/Medellin def.jpg"); /* Asegúrate de que la imagen está en esta ruta */
+        url("/Prueba/imagen/MEDELLIN.jpg"); /* Asegúrate de que la imagen está en esta ruta */
     background-size: cover;      
     background-position: center;   
     background-repeat: no-repeat;  
